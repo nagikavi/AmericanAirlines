@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]" parallel="tests">
+  <test thread-count="5" verbose="0" name="checkinTest(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Automation.CheckinpageNavigation">
+        <methods>
+          <include name="headerPrint"/>
+          <include name="checkInInfo"/>
+          <include name="initializesDriver"/>
+        </methods>
+      </class> <!-- Automation.CheckinpageNavigation -->
+    </classes>
+  </test> <!-- checkinTest(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

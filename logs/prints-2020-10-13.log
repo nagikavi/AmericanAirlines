@@ -1,0 +1,6 @@
+17:31:19.760 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Getting the header message from the Check In page
+19:40:28.909 [main] DEBUG Automation.HomepageNavigation - Getting the Travel text
+19:40:28.950 [main] INFO  Automation.HomepageNavigation - Got the count of links on Home Page
+19:40:29.057 [main] DEBUG Automation.HomepageNavigation - Clicked on Travel Restriction Link
+19:40:31.126 [main] INFO  Automation.HomepageNavigation - Moved focus to child window
+19:40:44.914 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicked the travel information tab

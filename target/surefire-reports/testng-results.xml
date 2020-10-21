@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16928" started-at="2020-10-14T17:14:41 PDT" finished-at="2020-10-14T17:14:58 PDT">
+    <groups>
+    </groups>
+    <test name="smokeTest" duration-ms="16928" started-at="2020-10-14T17:14:41 PDT" finished-at="2020-10-14T17:14:58 PDT">
+      <class name="Automation.HomepageNavigation">
+        <test-method status="PASS" signature="initializesDriver()[pri:0, instance:Automation.HomepageNavigation@17fc391b]" name="initializesDriver" is-config="true" duration-ms="9754" started-at="2020-10-14T17:14:41 PDT" finished-at="2020-10-14T17:14:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializesDriver -->
+        <test-method status="PASS" signature="hpNavigation()[pri:0, instance:Automation.HomepageNavigation@17fc391b]" name="hpNavigation" duration-ms="2271" started-at="2020-10-14T17:14:50 PDT" finished-at="2020-10-14T17:14:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hpNavigation -->
+        <test-method status="FAIL" signature="travelRestChildWindow()[pri:0, instance:Automation.HomepageNavigation@17fc391b]" name="travelRestChildWindow" duration-ms="3922" started-at="2020-10-14T17:14:53 PDT" finished-at="2020-10-14T17:14:57 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sherpa – Move Free] but found [Sherpa – Move Freely]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sherpa – Move Free] but found [Sherpa – Move Freely]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Automation.HomepageNavigation.travelRestChildWindow(HomepageNavigation.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelRestChildWindow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.HomepageNavigation@17fc391b]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-10-14T17:14:57 PDT" finished-at="2020-10-14T17:14:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.HomepageNavigation -->
+    </test> <!-- smokeTest -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="30525" started-at="2020-10-14T17:14:58 PDT" finished-at="2020-10-14T17:15:29 PDT">
+    <groups>
+      <group name="regression">
+        <method signature="CheckinpageNavigation.checkInInfo()[pri:0, instance:Automation.CheckinpageNavigation@3de8f619]" name="checkInInfo" class="Automation.CheckinpageNavigation"/>
+        <method signature="CheckinpageNavigation.headerPrint()[pri:0, instance:Automation.CheckinpageNavigation@3de8f619]" name="headerPrint" class="Automation.CheckinpageNavigation"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="checkinTest" duration-ms="30058" started-at="2020-10-14T17:14:58 PDT" finished-at="2020-10-14T17:15:28 PDT">
+      <class name="Automation.CheckinpageNavigation">
+        <test-method status="PASS" signature="initializesDriver()[pri:0, instance:Automation.CheckinpageNavigation@3de8f619]" name="initializesDriver" is-config="true" duration-ms="18170" started-at="2020-10-14T17:14:58 PDT" finished-at="2020-10-14T17:15:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializesDriver -->
+        <test-method status="PASS" signature="checkInInfo()[pri:0, instance:Automation.CheckinpageNavigation@3de8f619]" name="checkInInfo" duration-ms="9855" started-at="2020-10-14T17:15:16 PDT" finished-at="2020-10-14T17:15:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInInfo -->
+        <test-method status="PASS" signature="headerPrint()[pri:0, instance:Automation.CheckinpageNavigation@3de8f619]" name="headerPrint" duration-ms="2025" started-at="2020-10-14T17:15:26 PDT" finished-at="2020-10-14T17:15:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerPrint -->
+      </class> <!-- Automation.CheckinpageNavigation -->
+    </test> <!-- checkinTest -->
+    <test name="LoginTest" duration-ms="30525" started-at="2020-10-14T17:14:58 PDT" finished-at="2020-10-14T17:15:29 PDT">
+      <class name="Automation.LoginNavigation">
+        <test-method status="PASS" signature="initializesDriver()[pri:0, instance:Automation.LoginNavigation@1a245833]" name="initializesDriver" is-config="true" duration-ms="12328" started-at="2020-10-14T17:14:58 PDT" finished-at="2020-10-14T17:15:10 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializesDriver -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Automation.LoginNavigation@1a245833]" name="login" duration-ms="10137" started-at="2020-10-14T17:15:10 PDT" data-provider="loginInfo" finished-at="2020-10-14T17:15:21 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashnbel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1828he]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.LoginNavigation@1a245833]" name="tearDown" is-config="true" duration-ms="8051" started-at="2020-10-14T17:15:21 PDT" finished-at="2020-10-14T17:15:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.LoginNavigation -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

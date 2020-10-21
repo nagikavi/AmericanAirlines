@@ -1,0 +1,5 @@
+16:14:20.949 [TestNG-tests-1] DEBUG Automation.LoginNavigation - Entered in the Last Name box
+16:14:21.112 [TestNG-tests-1] DEBUG Automation.LoginNavigation - Entered in the Password box
+16:14:21.929 [TestNG-tests-1] DEBUG Automation.LoginNavigation - CLicked the login button
+16:14:33.019 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicked the travel information tab
+16:14:33.337 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicked the check in link from travel information tab

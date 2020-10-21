@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.688 s <<< FAILURE! - in TestSuite
+Automation.HomepageNavigation.travelRestChildWindow  Time elapsed: 4.753 s  <<< FAILURE!
+java.lang.AssertionError: expected [Sherpa – Move Free] but found [Sherpa – Move Freely]
+	at Automation.HomepageNavigation.travelRestChildWindow(HomepageNavigation.java:193)
+

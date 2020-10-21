@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+ 
+ <?The Properties tag gives the path till Project name?>
+ <Properties>
+ 	<Property name="basePath">./logs</Property>
+ </Properties>
+ 
+ 
+  <Appenders>
+  <?Appenders tag is used for where to print the error messages and in what pattern we want to print?> 
+  
+  <?If we want to print in a file we need to use the following tag called RollingFile?>
+  <?In below line in fileName we have to give the path of the file we created to log the error messages?>
+  <?Policy size=500 says that once 500kb is reached it should create one more file and log the messages there?>
+  <?That newly created file will be in the pattern of filePattern ?>
+  	<RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+  	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+  	<SizeBasedTriggeringPolicy size="500"/>
+  	</RollingFile>
+  
+  
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  <?additivity is used to not execute the file twice?>
+  <?Loggers are used to control what to print and which files to print?>
+  
+  	 <Logger name="Automation.HomepageNavigation" level="trace" additivity="false">
+      <AppenderRef ref="File"/>
+     </Logger>   
+    <Root level="trace">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>

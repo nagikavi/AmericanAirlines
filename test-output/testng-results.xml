@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31116" started-at="2020-10-20T14:22:41 PDT" finished-at="2020-10-20T14:23:12 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31116" started-at="2020-10-20T14:22:41 PDT" finished-at="2020-10-20T14:23:12 PDT">
+      <class name="Automation.LoginNavigation">
+        <test-method status="PASS" signature="initializesDriver()[pri:0, instance:Automation.LoginNavigation@5f8edcc5]" name="initializesDriver" is-config="true" duration-ms="12006" started-at="2020-10-20T14:22:41 PDT" finished-at="2020-10-20T14:22:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializesDriver -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Automation.LoginNavigation@5f8edcc5]" name="login" duration-ms="6187" started-at="2020-10-20T14:22:53 PDT" data-provider="loginInfo" finished-at="2020-10-20T14:22:59 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashnbel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1828he]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="privatePolicyNavigation()[pri:0, instance:Automation.LoginNavigation@5f8edcc5]" name="privatePolicyNavigation" duration-ms="8476" started-at="2020-10-20T14:22:59 PDT" finished-at="2020-10-20T14:23:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privatePolicyNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.LoginNavigation@5f8edcc5]" name="tearDown" is-config="true" duration-ms="4418" started-at="2020-10-20T14:23:08 PDT" finished-at="2020-10-20T14:23:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.LoginNavigation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+18:45:53.970 [main] DEBUG Automation.CheckinpageNavigation - Enetering the Last Name of the passenger
+18:45:54.224 [main] DEBUG Automation.CheckinpageNavigation - Enetering the Confirmation number of the passenger
+18:45:54.447 [main] DEBUG Automation.CheckinpageNavigation - Enetering the Ticket number of the passenger
+18:45:55.796 [main] DEBUG Automation.CheckinpageNavigation - Clicking the Find button
+18:45:56.110 [main] DEBUG Automation.CheckinpageNavigation - Clicked the travel information tab

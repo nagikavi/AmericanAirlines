@@ -1,0 +1,5 @@
+14:56:11.198 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Enetering the Ticket number of the passenger
+14:56:12.358 [TestNG-tests-1] DEBUG Automation.LoginNavigation - CLicked the login button
+14:56:13.041 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicking the Find button
+14:56:13.301 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicked the travel information tab
+14:56:15.364 [TestNG-tests-2] DEBUG Automation.CheckinpageNavigation - Clicked the check in link from travel information tab
